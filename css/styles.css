@@ -10,9 +10,9 @@ p {
 
 h2 {
   font-weight:900;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-family: "Montserrat"
+  font-size:3rem;
+  line-height:1.5;
+  font-family:"Montserrat";
 }
 
 /* Nav Bar */
@@ -24,13 +24,14 @@ h2 {
   padding: 0 18px;
 }
 .navbar-brand {
-  font-weight: bold;
-  font-size: 2.5rem;
   font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 .nav-link{
-  font-family: 'Montserrat'sans-serif;
-  font-weight: 400
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
 
 #title {
@@ -56,13 +57,16 @@ h2 {
 .phonedog {
   width: 60%;
   transform: rotate(25deg);
+  z-index: 1;
+  position: absolute;
+
 
 }
 
 
 
 .container-fluid {
-  padding: 3% 15%
+  padding: 3% 15% 8%;
 }
 
 
@@ -86,6 +90,9 @@ h2 {
 }
 #Features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 /* Testimonials */
