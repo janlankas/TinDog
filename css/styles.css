@@ -1,34 +1,34 @@
-
 body {
   font-family: "Montserrat";
 }
-
 
 p {
   color: #8f8f8f
 }
 
 h2 {
-  font-weight:900;
-  font-size:3rem;
-  line-height:1.5;
-  font-family:"Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
 }
 
 /* Nav Bar */
-
 .navbar {
-  padding: 0  0 4.5rem;
+  padding: 0 0 4.5rem;
 }
+
 .nav-item {
   padding: 0 18px;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: 900;
 }
-.nav-link{
+
+.nav-link {
   font-size: 1.2rem;
   font-weight: 300;
   font-family: "Montserrat";
@@ -39,14 +39,12 @@ h2 {
   color: white;
 }
 
-
 .slogan {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
   font-family: "Montserrat"
 }
-
 
 /* Dowload Buttons */
 .download-button {
@@ -60,15 +58,11 @@ h2 {
   z-index: 1;
   position: absolute;
   right: 30%;
-
 }
-
-
 
 .container-fluid {
   padding: 3% 15% 8%;
 }
-
 
 /* Features */
 .features {
@@ -79,15 +73,17 @@ h2 {
 .feat-head {
   font-weight: 900;
   font-family: "Montserrat"
-
 }
+
 .ficon {
   color: #ef8172;
   margin-bottom: 1rem
 }
+
 .ficon:hover {
   color: #ff4c68;
 }
+
 #Features {
   padding: 7% 15%;
   background-color: white;
@@ -111,6 +107,7 @@ h2 {
 .carousel-item {
   padding: 7% 15%;
 }
+
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -122,14 +119,55 @@ h2 {
   margin: 20px 20px 50px;
 }
 
-
 /* Pricing */
-
 #pricing {
   padding: 100px;
   text-align: center;
-
 }
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .phonedog {
+    position: static;
+    transform: rotate(0);
+
+  }}
+
+
+/* Call To Action Section */
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+
+}
+
+.cta-heading {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: "Montserrat"
+}
+.cta-btn {
+  margin-top: 50px;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 2% 7%;
+}
+
+.footer-icons {
+  margin: 10px
+}
+
+.cop-text {
+  margin: 10px;
 }
