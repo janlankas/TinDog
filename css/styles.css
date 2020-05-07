@@ -11,7 +11,14 @@ h1, h2, h3, h4, h6 {
   font-family: "Montserrat";
   font-weight: 900;
 }
-
+/* Section */
+.white-section {
+  background-color: white;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
 /* Nav Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -34,8 +41,6 @@ h1, h2, h3, h4, h6 {
 }
 
 #title {
-  background-color: #ff4c68;
-  color: white;
   text-align: left;
 }
 
@@ -93,8 +98,8 @@ h1, h2, h3, h4, h6 {
 
 /* Testimonials */
 #testimonials {
-  background-color: #ef8172;
   color: white;
+  background-color: #ef8172;
 }
 
 .testimonial-title {
@@ -159,7 +164,6 @@ h1, h2, h3, h4, h6 {
 /* Call To Action Section */
 #cta {
   padding: 7% 15%;
-  background-color: #ff4c68;
 }
 
 .cta-btn {
